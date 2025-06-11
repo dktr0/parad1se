@@ -1,1 +1,2 @@
 woodbine = img "https://dktr0.github.io/parad1se/img/woodbine-2025-summer.jpg";
+mask = max ((clip [0,1] $ linlin [0,1] [1,0] fy)**3) (rect [0,-0.5] [2,1]);
