@@ -1,2 +1,6 @@
-woodbine = img "https://dktr0.github.io/parad1se/img/woodbine-2025-summer.jpg";
+moss = imga "https://dktr0.github.io/parad1se/img/moss-2024-fall.jpg";
+pinebark = imga "https://dktr0.github.io/parad1se/img/pine-bark-2024-spring.jpg";
+water = imga "https://dktr0.github.io/parad1se/img/water-2022-spring.jpg";
+waterplants = imga "https://dktr0.github.io/parad1se/img/waterplants-2023-summer.jpg";
+woodbine = imga "https://dktr0.github.io/parad1se/img/woodbine-2025-summer.jpg";
 mask = max ((clip [0,1] $ linlin [0,1] [1,0] fy)**3) (rect [0,-0.5] [2,1]);
